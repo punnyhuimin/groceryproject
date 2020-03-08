@@ -1,5 +1,6 @@
 <template>
   <div id="app">    
+    <h4> A small change </h4>
     <app-header v-bind:title="msg"></app-header> 
     <router-view></router-view>
     <app-footer></app-footer>
